@@ -344,11 +344,10 @@ button:hover {
 }
 
 .fa {
-  padding: 15px;
+  padding: 17px;
   width: 60px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
 
 }
 
@@ -367,10 +366,11 @@ button:hover {
 
 .fa:hover {
   width: 80px;
-  
+  color: transparent;
 }
 
-.fa-twitter {
-  background: blue;
-  padding: 20px;
+.fa-github {
+  background: black;
+  color: white;
 }
+
