@@ -303,8 +303,8 @@ h2 {
 }
 
 button {
-  outline: none;
-  border: 4px solid transparent;
+  
+
   padding: 10px 20px;
   font-size: 1rem;
   font-weight: bold;
@@ -361,12 +361,12 @@ button:hover {
 #ig {transition-timing-function: linear;}
 
 .fa {
-  transition: width 1s;
+  transition: width .5s;
 }
 
 .fa:hover {
   width: 80px;
-  color: transparent;
+  color: white;
 }
 
 .fa-github {
@@ -374,3 +374,12 @@ button:hover {
   color: white;
 }
 
+.game {
+  color: orange;
+  border-radius: 16px;
+
+}
+
+.game:hover {
+  color: orange;
+}
